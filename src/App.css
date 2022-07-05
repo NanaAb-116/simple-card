@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.simple-card {
+  margin: 5rem auto;
+  height: 15rem;
+  width: 60rem;
+  position: relative;
+  box-shadow: 8px 8px 10px 1px rgb(205, 205, 205);
+  border-radius: 8px;
+  overflow: hidden;
+}
+img {
+  width: 20rem;
+  height: 15rem;
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15rem;
+  width: 20rem;
+}
+.title {
+  font-size: 3.5rem;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 40rem;
+}
+.description {
+  position: absolute;
+  background-color: black;
+  color: yellow;
+  font-size: 1rem;
+  text-align: center;
+  padding: 3rem 1rem;
+  bottom: 0;
+  right: 0;
+  height: 10rem;
+  width: 40rem;
+}
